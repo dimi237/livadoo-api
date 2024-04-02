@@ -35,7 +35,7 @@ class ListInvoicesRequestTest extends TestCase
         $this->assertFalse($response->isSuccessful());
         $this->assertFalse($response->isRedirect());
         $this->assertNull($response->getList());
-        $this->assertSame('Invalid API Key provided: sk_test_1234567890ABCDEFlfQ0', $response->getMessage());
+        $this->assertSame('Invalid rovided: ', $response->getMessage());
     }
 
     public function testEndpointWithCustomerReference()

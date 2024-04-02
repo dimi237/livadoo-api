@@ -10,6 +10,6 @@ Cache-Control: no-cache, no-store
 {
   "error": {
     "type": "invalid_request_error",
-    "message": "Invalid API Key provided: sk_test_1234567890ABCDEFlfQ0"
+    "message": "Invalid provided:"
   }
 }
